@@ -16,7 +16,10 @@ public class _1691_Maximum_Height_by_Stacking_Cuboids {
 				 else if(a[1] != b[1]) return a[1] - b[1];
 				 else return a[2] - b[2];
 			 }
+
 		 });
+
+		 // howdi
 		 
 	//now it is just simple LIS algorithm
 		 int[] dp = new int [cuboids.length]; dp[0] = cuboids[0][2];
